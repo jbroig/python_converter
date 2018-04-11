@@ -4,8 +4,8 @@ import platform
 import os
 import time
 
-# original_file = open("origen.csv", "r")
-# new_file = open("new_csv.csv","w")
+original_file = open("origen.csv", "r")
+new_file = open("new_csv.csv","w")
 
 def converter():
     for row in original_file:
