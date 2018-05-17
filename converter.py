@@ -35,7 +35,7 @@ def file_dates(path_to_csv, path_to_converter ):
             print("Executing...")
             converter()
             
-            os.system("gdrive update 1HQM1QUSSMDgE5-nZ5m2UaBaMwDWv_ZkBX8LdzHCR4Pc TIAMO_EXPORT_UPLOAD.csv")
+            os.system("gdrive update drive_folder_id TIAMO_EXPORT_UPLOAD.csv")
         else:
             print("Everything is updated")    
 
